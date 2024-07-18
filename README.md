@@ -161,7 +161,7 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 | <a name="input_update_timeout"></a> [update\_timeout](#input\_update\_timeout) | The optional timeout that is applied to limit long database updates. | `string` | `"30m"` | no |
 | <a name="input_user_labels"></a> [user\_labels](#input\_user\_labels) | The key/value labels for the master instances. | `map(string)` | `{}` | no |
 | <a name="input_user_password"></a> [user\_password](#input\_user\_password) | The password for the default user. If not set, a random one will be generated and available in the generated\_user\_password output variable. | `string` | `""` | no |
-| <a name="input_zone"></a> [zone](#input\_zone) | The zone for the master instance. | `string` | `"us-central1-a"` | no |                                                                                                                                                                                                                               | no |
+| <a name="input_zone"></a> [zone](#input\_zone) | The zone for the master instance. | `string` | `"us-central1-a"` | no |
 
 ## Outputs
 
